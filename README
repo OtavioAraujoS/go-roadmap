@@ -1,60 +1,127 @@
-# Roadmap de Go
+# 🦫 Roadmap de Go — Do Zero ao Intermediário
 
-Este é um guia para aprender Go, uma linguagem de programação desenvolvida pelo Google. O roadmap está dividido em várias seções, cada uma abordando um aspecto importante da linguagem.
+Bem-vindo ao roadmap definitivo para aprender **Go (Golang)** do zero até o nível intermediário.  
+Este guia é organizado em passos claros e progressivos, para você aprender de forma prática e estruturada.
 
-## 1. Introdução ao Go
-- O que é Go?
-- Instalação do Go
-- Configuração do ambiente de desenvolvimento
+---
 
-## 2. Sintaxe Básica
-- Tipos de dados
-- Variáveis e constantes
-- Estruturas de controle (if, for, switch)
+## 📌 1. Instalação e Primeiros Passos
 
-## 3. Funções
-- Definição e chamada de funções
-- Parâmetros e retorno de valores
-- Funções anônimas e closures
+### 🔧 Instale o Go
+Baixe a versão mais recente:
 
-## 4. Estruturas de Dados
-- Arrays e slices
-- Mapas (maps)
+➡️ https://go.dev/dl
+
+### 📂 Seu primeiro projeto
+Crie uma pasta chamada `hello-go` e pratique:
+
+- `go run` — executa o código sem compilar
+- `go build` — compila e gera um binário
+- `go mod init` — inicia um módulo Go
+
+**🎯 Objetivo:** aprender a rodar e compilar programas Go.
+
+---
+
+## 📌 2. Fundamentos da Linguagem
+
+Conceitos essenciais para qualquer projeto:
+
+- Variáveis e tipos (`string`, `int`, `bool`, `float`, `rune`)
+- Funções e múltiplos retornos
+- Condicionais (`if`, `switch`)
+- Loops (`for`)
+- Arrays
+- Slices
+- Maps
 - Structs
+- Ponteiros (importante: Go usa passagem por valor)
 
-## 5. Concorrência
-- Goroutines
-- Canais (channels)
-- Synchronization primitives
+---
 
-## 6. Pacotes e Módulos
-- Importação de pacotes
-- Criação de pacotes
-- Gerenciamento de dependências com Go Modules
+## 📌 3. Pacotes e Organização de Código
 
-## 7. Programação Orientada a Objetos
-- Interfaces
-- Embedding
-- Polimorfismo
+Aprenda a estruturar projetos como um profissional:
 
-## 8. Manipulação de Erros
-- Tratamento de erros com `error`
-- Padrões comuns de tratamento de erros
+- Uso de `package` e `import`
+- Separar código em arquivos e pastas
+- Criar módulos com `go mod`
+- Organização de diretórios para projetos maiores
 
-## 9. Testes
-- Escrevendo testes unitários
-- Benchmarking
-- Testes de integração
+**🎯 Objetivo:** manter código limpo e bem dividido.
 
-## 10. Ferramentas e Ecossistema
-- Uso do `go fmt` para formatação de código
-- Linters e ferramentas de análise estática
-- Documentação e comentários
+---
 
-## 11. Projetos Avançados
-- Desenvolvimento web com Go (ex: Gin, Echo)
-- Trabalhando com bancos de dados (ex: GORM, sqlx)
-- APIs RESTful
+## 📌 4. Manipulação de Arquivos e JSON
 
-## Conclusão
-Este roadmap é um ponto de partida para aprender Go. A prática constante
+Domine operações comuns:
+
+- Ler e escrever arquivos (`os`, `io`)
+- Serializar e desserializar JSON (`encoding/json`)
+
+Essencial para CLIs, APIs e microsserviços.
+
+---
+
+## 📌 5. Web Servers e Conexões
+
+Aprenda a criar APIs com a biblioteca padrão:
+
+- Criar servidor com `net/http`
+- Definir rotas
+- Criar handlers
+- Criar middlewares simples
+
+**🎯 Esse passo abre portas para APIs profissionais.**
+
+---
+
+## 📌 6. Concorrência em Go (O Poder da Linguagem)
+
+Go brilha aqui:
+
+- **Goroutines**
+- **Channels**
+- WaitGroups
+- Mutex (básico)
+
+**🎯 Dominar isso significa entender a alma da linguagem.**
+
+---
+
+## 📌 7. Testes
+
+Go possui uma excelente infraestrutura nativa para testes:
+
+- Criar testes com `go test`
+- Testes unitários
+- Testes de API
+- Benchmarks (`go test -bench .`)
+
+---
+
+## 📌 8. Frameworks e Práticas Avançadas
+
+Depois da base sólida, estude:
+
+### 🌐 Web
+- **Gin** (framework rápido e produtivo)
+
+### 💾 Banco de dados
+- **Gorm** (ORM SQL)
+
+### 🔧 Utilidades
+- Logging: `zerolog` ou `logrus`
+- Env vars: `godotenv`
+
+---
+
+## 📌 9. Deploy e Produção
+
+Aprenda a colocar seus apps no ar:
+
+- Build otimizado para produção
+- Binários estáticos
+- Docker + Go
+- Configuração por ambiente
+- Documentação de APIs
