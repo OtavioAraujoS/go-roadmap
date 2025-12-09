@@ -1,0 +1,60 @@
+# Roadmap de Go
+
+Este é um guia para aprender Go, uma linguagem de programação desenvolvida pelo Google. O roadmap está dividido em várias seções, cada uma abordando um aspecto importante da linguagem.
+
+## 1. Introdução ao Go
+- O que é Go?
+- Instalação do Go
+- Configuração do ambiente de desenvolvimento
+
+## 2. Sintaxe Básica
+- Tipos de dados
+- Variáveis e constantes
+- Estruturas de controle (if, for, switch)
+
+## 3. Funções
+- Definição e chamada de funções
+- Parâmetros e retorno de valores
+- Funções anônimas e closures
+
+## 4. Estruturas de Dados
+- Arrays e slices
+- Mapas (maps)
+- Structs
+
+## 5. Concorrência
+- Goroutines
+- Canais (channels)
+- Synchronization primitives
+
+## 6. Pacotes e Módulos
+- Importação de pacotes
+- Criação de pacotes
+- Gerenciamento de dependências com Go Modules
+
+## 7. Programação Orientada a Objetos
+- Interfaces
+- Embedding
+- Polimorfismo
+
+## 8. Manipulação de Erros
+- Tratamento de erros com `error`
+- Padrões comuns de tratamento de erros
+
+## 9. Testes
+- Escrevendo testes unitários
+- Benchmarking
+- Testes de integração
+
+## 10. Ferramentas e Ecossistema
+- Uso do `go fmt` para formatação de código
+- Linters e ferramentas de análise estática
+- Documentação e comentários
+
+## 11. Projetos Avançados
+- Desenvolvimento web com Go (ex: Gin, Echo)
+- Trabalhando com bancos de dados (ex: GORM, sqlx)
+- APIs RESTful
+
+## Conclusão
+Este roadmap é um ponto de partida para aprender Go. A prática constante
